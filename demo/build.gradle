@@ -44,7 +44,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation project(':andlibs')
+//    implementation project(':andlibs')
+    implementation 'com.github.chenjim:ArchMVVM:0.0.5'
 //    implementation "com.github.chenjim:andlibs:0.0.1"
     implementation "androidx.core:core-ktx:1.6.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
